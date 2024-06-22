@@ -3,7 +3,13 @@
 #include <stdio.h>
 /* more headers goes here */
 
-/* betty style doc for function goes here */
+/**
+ * main - Entry point
+ *
+ * Description: function fir numbers
+ *
+ * Return: Always 0 [Success)
+ */
 int main(void)
 {
 	char ch = 'a';
