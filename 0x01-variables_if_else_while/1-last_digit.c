@@ -3,7 +3,8 @@
 #include <stdio.h>
 /* more headers goes here */
 
-/** main - Entry point
+/**
+ * main - Entry point
  * 
  * Description: main function for the program
  * 
@@ -17,7 +18,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 	/* your code goes here */	
 	last_digit = n % 10;
 	printf("Last digit of %d is %d", n, last_digit);
