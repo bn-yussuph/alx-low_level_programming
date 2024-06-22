@@ -5,9 +5,7 @@
 
 /**
  * main - Entry point
- * 
- * Description: main function for the program
- * 
+ * Description: main function for the program 
  * Return: Always 0 (Success)
 */
 int main(void)
@@ -18,6 +16,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	/* your code goes here */	
 	last_digit = n % 10;
 	printf("Last digit of %d is %d", n, last_digit);
