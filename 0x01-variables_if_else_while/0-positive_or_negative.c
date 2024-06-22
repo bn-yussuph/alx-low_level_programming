@@ -5,7 +5,6 @@
  * main - Entry point
  *
  * Description: a function to print a random no.
- * @parameter: takes no parameter
  *
  * Return: Always 0 (Success)
   */
