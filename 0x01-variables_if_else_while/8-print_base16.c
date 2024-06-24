@@ -3,13 +3,19 @@
 #include <stdio.h>
 /* more headers goes here */
 
-/* betty style doc for function goes here */
+/**
+ * main - Entry point
+ *
+ * Description: a function for base six conversion
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int a;
-	for (a = 0; a < 16; a++){
+
+	for (a = 0; a < 16; a++)
 		printf("%x", a);
-	}
 	printf("\n");
 	return (0);
 }

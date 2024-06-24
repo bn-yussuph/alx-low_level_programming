@@ -3,11 +3,18 @@
 #include <stdio.h>
 /* more headers goes here */
 
-/* betty style doc for function goes here */
+/**
+ * main - Entry point
+ *
+ * Description: a function for printing
+ *
+ *bReturn: Always 0 (Success)
+ */
 int main(void)
 {
 	char ch = 'z';
-	while(ch >=  'a')
+
+	while (ch >=  'a')
 	{
 		putchar(ch);
 		ch--;

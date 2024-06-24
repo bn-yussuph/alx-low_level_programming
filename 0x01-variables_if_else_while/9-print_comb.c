@@ -3,13 +3,22 @@
 #include <stdio.h>
 /* more headers goes here */
 
-/* betty style doc for function goes here */
+/**
+ * main - Entry point
+ *
+ * Description: a function to print two digit combi
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int a;
-	for (a = 0; a < 10;a++){
+
+	for (a = 0; a < 10; a++)
+	{
 		putchar('0' + a);
-		if (a < 9){
+		if (a < 9)
+		{
 			putchar(',');
 			putchar(' ');
 		}
