@@ -3,6 +3,11 @@
 
 int main()
 {
-	printf("_putchar");
+	char *word = "_putchar";
+
+	for (i = 0; word[i] != '\0'; i++)
+	{
+		_putchar(word[i]);
+	}
 	return 0;
 }
