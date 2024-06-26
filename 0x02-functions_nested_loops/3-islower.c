@@ -8,9 +8,9 @@
  * Return: a 1 when lower and 0 otherwise
  */
 
-int _isLower(char c)
+int _islower(char c)
 {
-	if (c >= 'a' && c<= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
 		return (0);
