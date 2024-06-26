@@ -3,9 +3,10 @@
 /**
  * _islower - a fxn to check if a char is in lower case or not
  *
- * Description: a fxn for checking lowercase characters
+ * @c: accept a char
  *
- * @parameter: accept a char 
+ * Description: a function for lower case check
+ *
  * Return: a 1 when lower and 0 otherwise
  */
 
