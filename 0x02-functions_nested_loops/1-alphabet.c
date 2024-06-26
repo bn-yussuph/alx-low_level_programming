@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - fxn to print a character
  *
  * Description: fxn to print alhabets
  *
