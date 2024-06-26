@@ -1,7 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
-int main()
+/**
+ * main - Entry point
+ *
+ * Description: a function to print _putchar
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	char *word = "_putchar";
 	int i;
@@ -11,5 +18,5 @@ int main()
 		_putchar(word[i]);
 	}
 	_putchar('\n');
-	return 0;
+	return (0);
 }
