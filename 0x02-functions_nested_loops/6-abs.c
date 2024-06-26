@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs(int) - a fxn to check if a char is in lower case or not
+ * _abs - a fxn to check if a char is in lower case or not
  *
  * @n: accept a char
  *
