@@ -3,9 +3,9 @@
 
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - fxn to print alhabets
  *
- * Description: fxn to print alhabets
+ * Description: fxn to print alphabets 10 times
  *
  * Return: void
  */
