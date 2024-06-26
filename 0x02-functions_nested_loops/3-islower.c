@@ -5,6 +5,7 @@
  *
  * Description: a fxn for checking lowercase characters
  *
+ * @parameter: accept a char 
  * Return: a 1 when lower and 0 otherwise
  */
 
