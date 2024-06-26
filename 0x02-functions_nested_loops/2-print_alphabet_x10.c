@@ -9,7 +9,7 @@
  */
 void print_alphabet(void)
 {
-	char ch <= 'a';
+	char ch;
 	int count = 0;
 
 	while (count++ < 9)
