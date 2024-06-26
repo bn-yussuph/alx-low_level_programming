@@ -14,7 +14,7 @@ void print_alphabet(void)
 
 	while (count++ < 9)
 	{
-		for (ch = 'a'; ch < 'z'; ch+*)
+		for (ch = 'a'; ch < 'z'; ch++)
 			_putchar(ch);
 		_putchar('\n');
 	}
